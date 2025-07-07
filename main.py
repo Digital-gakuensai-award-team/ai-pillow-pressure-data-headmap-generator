@@ -46,7 +46,8 @@ def generate_heatmap(center_x, center_y, size=100, radius=10, filename='output/h
     # 可視化
     plt.figure(figsize=(6, 4))
     plt.imshow(heatmap, cmap='jet', origin='lower',
-               extent=(0, PILLOW_WIDTH, 0, PILLOW_HEIGHT))
+               extent=(0, PILLOW_WIDTH, 0, PILLOW_HEIGHT),
+               vmin=0.0, vmax=1.0)
     plt.colorbar(label='Pressure Intensity')
     plt.title('Estimated Head Position Heatmap')
     plt.savefig(filename)
