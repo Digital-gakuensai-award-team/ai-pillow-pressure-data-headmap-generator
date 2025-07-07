@@ -69,7 +69,7 @@ def main():
 
     # PNG群をまとめてGIFに変換
     images = [imageio.v2.imread(f) for f in filenames]
-    imageio.mimsave('output/heatmap_animation.gif', images, fps=5)
+    imageio.mimsave('output/heatmap_animation.gif', images, fps=5, loop=0)
     print("✅ GIF生成完了: output/heatmap_animation.gif")
 
 # スクリプトとして実行されたときのみ main() を呼び出す
