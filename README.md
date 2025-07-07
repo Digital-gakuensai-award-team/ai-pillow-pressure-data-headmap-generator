@@ -27,7 +27,7 @@
 - 各時刻のヒートマップ画像を `output/` に保存（PNG）
 - すべてのフレームを1つにまとめたアニメーションGIF（`output/heatmap_animation.gif`）
 ## 🎥 使用イメージ
-![出力をしたgif]("output\heatmap_animation.gif")
+![出力をしたgif]("https://github.com/Digital-gakuensai-award-team/ai-pillow-pressure-data-headmap-generator/blob/main/output/heatmap_animation.gif")
 
 
 
